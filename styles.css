@@ -22,6 +22,16 @@ body{
     display: block; /*Utilizei para dispor os itens lado a lado, respeitando a cascata de dados.*/    
 }
 
+input[type="checkbox" i] {
+        background-color: #c0bdbd;
+        cursor: pointer;
+        appearance: auto;
+        box-sizing: border-box;
+        margin: 3px 3px 3px 4px;
+        padding: initial;
+        border: initial;
+    }
+
 .checkbox-indeterminate {
     background-color: #c0bdbd;
 }
@@ -35,5 +45,6 @@ button{
     padding: 0 3px 0 3px;
     margin: 0 3px 0 3px;
     }
+
 
     
