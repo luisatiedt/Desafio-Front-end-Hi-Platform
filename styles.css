@@ -1,0 +1,49 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;  
+}
+
+.tree-node {
+    margin-left: 20px;
+}
+
+.indented {
+    padding-left: 20px;
+    display: none; /*Utilizei display none para que os itens identados apareçam apenas quando o botão + do pai for acionado.*/      
+}
+
+
+.expanded .indented {
+    display: block; /*Utilizei para dispor os itens lado a lado, respeitando a cascata de dados.*/    
+}
+
+input[type="checkbox" i] {
+    background-color: #c0bdbd;
+    cursor: pointer;
+    appearance: auto;
+    box-sizing: border-box;
+    margin: 3px 3px 3px 4px;
+    padding: initial;
+    border: initial;
+}
+
+.checkbox-indeterminate {
+    background-color: #c0bdbd;
+}
+
+button{
+    cursor: pointer;
+    color: #fff;
+    background-color:#54AEFF;
+    border-color: #54AEFF;
+    border-radius: 5px;
+    padding: 0 3px 0 3px;
+    margin: 0 3px 0 3px;
+    }
+
+ 
