@@ -38,5 +38,6 @@ Pude aprender várias funções e características novas do Javascript ao longo 
 * Renderização de árvore de dados;
 * Criação e manipulação de Divs, input e labels diretamente no Javascript;
 * Uso de toggleButton na criação de botões com alteração de estado;
+* Uso de querySelector;
 * Alteração de estado de checkboxes em uma aplicação.
 
