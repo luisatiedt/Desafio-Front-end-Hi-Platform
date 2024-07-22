@@ -6,7 +6,7 @@ Os códigos comentatos e escolhas de cada etapa está disponível aqui no reposi
 
 Preview:
 
-GIF
+![Projeto preview](https://github.com/luisatiedt/Desafio-Front-end-Hi-Platform/blob/main/GIF%20desafio.gif)
 
  ### Tecnologias utilizadas
 HTML, CSS e Javascript.
@@ -24,7 +24,7 @@ Nesta aplicação o usuário tem a possibilidade de realizar as seguintes açõe
   
 :pushpin: Observações importantes:
 
-* O botão azul (+ ou -) indica que a pessoa possui filhos e uma descendência abaixo dela. As pessoas que não tem esse botão, significa que não possuem filhos.
+* O botão azul (+ ou -) indica que a pessoa possui filhos e uma descendência abaixo dela. As pessoas que não tem esse botão, significa que não possuem filhos;
 
 
 * As tags e elementos (como divs, inputs) foram escritos em inglês, criando padronização.
