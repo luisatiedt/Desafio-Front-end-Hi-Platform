@@ -73,10 +73,10 @@ function updateParentState(child) {
     const parent = child.closest('.tree-node').parentElement.closest('.tree-node');
     if (parent) {
         const parentCheckbox = parent.querySelector('input[type="checkbox"]');
-        const siblings = Array.from(parent.querySelectorAll(':scope > .tree-node input[type="checkbox"]')); // Seleção de todos os checkboxes irmãos (siblings).//
+        const checkboxSiblings = Array.from(parent.querySelectorAll(':scope > .tree-node input[type="checkbox"]')); // Seleção de todos os checkboxes irmãos (siblings).//
 
-        const allChecked = siblings.every(sibling => sibling.checked); //Verificação da marcação dos irmãos.//
-        const noneChecked = siblings.every(sibling => !sibling.checked);
+        const allChecked = checkboxSiblings.every(checkboxSiblings => checkboxSiblings.checked); //Verificação da marcação dos irmãos.//
+        const noneChecked = checkboxSiblings.every(checkboxSiblings => !checkboxSiblings.checked);
 
         parentCheckbox.checked = allChecked; //Caso todos os checkboxes filhos estiverem marcados, o checkbox pai será marcado também.//
         parentCheckbox.indeterminate = !allChecked && !noneChecked; //Caso contrário permanece como indeterminado até a conclusão da ação.//
