@@ -2,7 +2,7 @@
 Este projeto foi realizado com base no desafio Front-end da Hi Platform, onde o objetivo era desenvolver uma árvore com itens encadeados (pais e filhos) dado o conjunto de dados em formato JSON.
 Para ver e navegar o projeto final, [clique aqui](https://luisatiedt.github.io/Desafio-Front-end-Hi-Platform/)
 
-Os códigos comentatos e escolhas de cada etapa está disponível aqui no repositório do Github.
+Os códigos comentatos no detalhe e escolhas de cada etapa está disponível aqui nos arquivos repositório do Github.
 
 Preview:
 
@@ -27,7 +27,9 @@ Nesta aplicação o usuário tem a possibilidade de realizar as seguintes açõe
 * O botão azul (+ ou -) indica que a pessoa possui filhos e uma descendência abaixo dela. As pessoas que não tem esse botão, significa que não possuem filhos;
 
 
-* As tags e elementos (como divs, inputs) foram escritos em inglês, criando padronização.
+* As tags e elementos (como divs, inputs) foram escritos em inglês, criando padronização;
+
+* Neste projeto não há uma gama de cores grandes na estilização, mas caso tivesse, eu utilização as variáveis no CSS com o root.
 
 
 ### Principais aprendizados
